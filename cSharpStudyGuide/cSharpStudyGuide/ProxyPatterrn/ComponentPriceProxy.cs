@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace cSharpStudyGuide.ProxyPatterrn
 {
+    //proxy
+    //proxy exposes same interface that real subject exposes
+    //proxy encapsulates (4 Pillars of OOP) all necessary logic that's invovled in interfacing the real subjet
     public class ComponentPriceProxy : IComponentPrice
     {
         private decimal MakeRequest(string component)
@@ -29,21 +33,26 @@ namespace cSharpStudyGuide.ProxyPatterrn
             }
         }
 
+        // ==== Below 3 are examples of Data Abstraction (4 Pillars of OOP)
+        // Run private method, then return cpu
         public decimal CpuPrice
         {
             get { return MakeRequest("cpu"); }
         }
 
+        // Run private method, then return ram
         public decimal RamPrice
         {
             get { return MakeRequest("ram"); }
         }
 
+        // Run private method, then return ssd
         public decimal SsdPrice
         {
             get { return MakeRequest("ssd"); }
         }
 
+        // Display Prices
         public void RunProxy()
         {
             var prices = new StoredComponentPrices();
