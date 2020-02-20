@@ -45,12 +45,19 @@
   <ItemGroup>
     <Compile Include="CompositePattern\IEmployee.cs" />
     <Compile Include="CompositePattern\Supervisor.cs" />
+    <Compile Include="CompositePattern\Worker.cs" />
+    <Compile Include="DependencyInjection\CoffeeMaker.cs" />
+    <Compile Include="DependencyInjection\IPowerSource.cs" />
+    <Compile Include="DependencyInjection\PowerSupply.cs" />
     <Compile Include="ObserverPattern\ISubscriber.cs" />
     <Compile Include="ObserverPattern\Moderator.cs" />
     <Compile Include="ObserverPattern\User.cs" />
     <Compile Include="ObserverPattern\YouTubeChannel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProxyPatterrn\ComponentPriceProxy.cs" />
+    <Compile Include="ProxyPatterrn\IComponentPrice.cs" />
+    <Compile Include="ProxyPatterrn\StoredComponentPrices.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
