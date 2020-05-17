@@ -49,6 +49,7 @@
     <Compile Include="DependencyInjection\CoffeeMaker.cs" />
     <Compile Include="DependencyInjection\IPowerSource.cs" />
     <Compile Include="DependencyInjection\PowerSupply.cs" />
+    <Compile Include="Encapsulation\NameEncapsulation.cs" />
     <Compile Include="ObserverPattern\ISubscriber.cs" />
     <Compile Include="ObserverPattern\Moderator.cs" />
     <Compile Include="ObserverPattern\User.cs" />
