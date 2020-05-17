@@ -53,11 +53,14 @@
     <Compile Include="ObserverPattern\Moderator.cs" />
     <Compile Include="ObserverPattern\User.cs" />
     <Compile Include="ObserverPattern\YouTubeChannel.cs" />
+    <Compile Include="Operators\AssignmentOperators.cs" />
+    <Compile Include="Operators\RegOperators.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProxyPatterrn\ComponentPriceProxy.cs" />
     <Compile Include="ProxyPatterrn\IComponentPrice.cs" />
     <Compile Include="ProxyPatterrn\StoredComponentPrices.cs" />
+    <Compile Include="Tests\Vendor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
