@@ -43,28 +43,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstraction\AbstractionDerivedHorse.cs" />
+    <Compile Include="Abstraction\AbstractionDerivedLion.cs" />
+    <Compile Include="Abstraction\AbstractionParent.cs" />
     <Compile Include="CompositePattern\IEmployee.cs" />
     <Compile Include="CompositePattern\Supervisor.cs" />
     <Compile Include="CompositePattern\Worker.cs" />
     <Compile Include="DependencyInjection\CoffeeMaker.cs" />
     <Compile Include="DependencyInjection\IPowerSource.cs" />
     <Compile Include="DependencyInjection\PowerSupply.cs" />
+    <Compile Include="Dictionaries\StatesCapitalsDictionary.cs" />
     <Compile Include="Encapsulation\NameEncapsulation.cs" />
+    <Compile Include="Inheritance\BaseClassParent.cs" />
+    <Compile Include="Inheritance\DerivedClassChild.cs" />
+    <Compile Include="Inheritance\DerivedClassChild2.cs" />
     <Compile Include="ObserverPattern\ISubscriber.cs" />
     <Compile Include="ObserverPattern\Moderator.cs" />
     <Compile Include="ObserverPattern\User.cs" />
     <Compile Include="ObserverPattern\YouTubeChannel.cs" />
     <Compile Include="Operators\AssignmentOperators.cs" />
     <Compile Include="Operators\RegOperators.cs" />
+    <Compile Include="OutParameter\OutParam.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProxyPatterrn\ComponentPriceProxy.cs" />
     <Compile Include="ProxyPatterrn\IComponentPrice.cs" />
     <Compile Include="ProxyPatterrn\StoredComponentPrices.cs" />
+    <Compile Include="Reflection\Reflection.cs" />
+    <Compile Include="Suffixes\SuffixEx.cs" />
+    <Compile Include="Tests\AbsoluteMatching.cs" />
+    <Compile Include="Tests\BinaryGaps.cs" />
     <Compile Include="Tests\Vendor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
